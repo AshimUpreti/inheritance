@@ -10,9 +10,13 @@ public class User1 {
 
     System.out.println();
 
-    NewSpecialDog dog2=new NewSpecialDog();
+    //NewSpecialDog dog2=new NewSpecialDog();
 
-    dog2.bark();
+    //We can put parent class refence in child class also
+
+    dog1= new NewSpecialDog();
+
+    ((NewSpecialDog) dog1).bark();// Downcasting
 
     dog1.run();
 
