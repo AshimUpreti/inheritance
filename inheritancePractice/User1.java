@@ -10,6 +10,7 @@ public class User1 {
 
     System.out.println();
 
+
     //NewSpecialDog dog2=new NewSpecialDog();
 
     //We can put parent class refence in child class also
@@ -21,7 +22,11 @@ public class User1 {
     dog1.run();
 
     dog1.walk();
+
+    
+
  
+
     }
 
 }
